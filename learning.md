@@ -94,3 +94,11 @@ Swig: http://www.swig.org/Doc1.3/Windows.html
 - Install the requirements: `pip install -r requirements.txt`
 
 
+
+
+## Training Strategies
+
+- Train for longer
+- Hyperparameter tuning
+- Try different algorithms
+

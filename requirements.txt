@@ -1,4 +1,6 @@
 stable-baselines3[extra]
 gym
+gym[classic_control]
 ipykernel
 IPython
+JSAnimation
