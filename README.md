@@ -1,4 +1,4 @@
-# Reinforcement_Learning_Practice
+# Reinforcement_Learning_Projects
 
 
 
