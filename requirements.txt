@@ -3,4 +3,5 @@ gym
 gym[classic_control]
 ipykernel
 IPython
-JSAnimation
+gym[box2d]
+pyglet==1.3.2
