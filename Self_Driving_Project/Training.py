@@ -44,8 +44,8 @@ if __name__ == "__main__":
     print("+++++++++++++++++++++++++++++++++++++++++++++")
 
     # Train the model
-    model_name = "CarRacingPPO_temp"
-    timesteps = 2000  # Ideally timesteps more than 2-5 million for better performance!
+    model_name = "CarRacingPPO_50k"
+    timesteps = 50000  # Ideally timesteps more than 2-5 million for better performance!
     policy_name = "CnnPolicy"
     trained_model_path = os.path.join("Training", "Trained_Models", model_name)
     log_path = os.path.join("Training", "Logs")

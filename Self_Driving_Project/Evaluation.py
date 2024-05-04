@@ -8,23 +8,23 @@ from stable_baselines3.common.evaluation import evaluate_policy
 
 def evaluate_model(model, env, episodes):
     # Evaluate the model
-    # evaluate_policy(model, env, n_eval_episodes=episodes, render=True)
-    # env.close()
+    evaluate_policy(model, env, n_eval_episodes=episodes, render=True)
+    env.close()
 
     # or
-    episodes = 5
-    for episode in range(1, episodes + 1):
-        obs, info = env.reset()
-        done = False
-        score = 0
+    # episodes = 5
+    # for episode in range(1, episodes + 1):
+    #     obs, info = env.reset()
+    #     done = False
+    #     score = 0
 
-        while not done:
-            env.render()
-            action, _states = model.predict(obs)
-            obs, reward, _, done, info = env.step(action)
-            score += reward
-        print("Episode:{} Score:{}".format(episode, score))
-    env.close()
+    #     while not done:
+    #         # env.render()
+    #         action, _states = model.predict(obs)
+    #         obs, reward, _, done, info = env.step(action)
+    #         score += reward
+    #     print("Episode:{} Score:{}".format(episode, score))
+    # env.close()
 
 
 if __name__ == "__main__":
@@ -35,7 +35,7 @@ if __name__ == "__main__":
     env = gym.make(environment_name, render_mode="human")
     # env = gym.make(environment_name)
 
-    model_name = "CarRacingPPO_temp"
+    model_name = "CarRacingPPO_50k"
     trained_model_path = os.path.join("Training", "Trained_Models", model_name)
 
     # Evaluate the model
