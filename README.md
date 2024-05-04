@@ -74,12 +74,5 @@ Note: Game is solved if the agent is able to get award score of 900+.
     - Add more complex action space
     - Add more complex reward space
 
-
-<!-- ![media](Self_Driving_Project/Video_Demo/Demo_50k_vs_4m.mov) -->
-
 ## Demo of the driving car agent trained for 50,000 steps vs 4,000,000 steps:
-
-<video width="640" height="360" controls>
-  <source src="Self_Driving_Project/Video_Demo/Demo_50k_vs_4m_480p.mov" type="video/mov">
-  Your browser does not support the video tag.
-</video>
+Checkout the demo at `Reinforcement_Learning_Practice/Self_Driving_Project/Video_Demo/Demo_50k_vs_4m_480p.mov`
