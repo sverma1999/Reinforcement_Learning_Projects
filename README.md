@@ -3,6 +3,8 @@
 
 
 ## Project: Self-Driving Car
+The goal of this project was to achieve an award score of 900+ for the agent, utilizing OpenAI's Gym environment and Reinforcement Learning (RL) algorithms. The project aimed to observe the effects of different strategies for RL and enable the agent to understand the environment around it, taking appropriate actions accordingly.
+
 
 ### Pre-requisites
 - Install swig for `macOS`

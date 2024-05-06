@@ -1,8 +1,5 @@
 # Reinforcement learning
 
-https://www.youtube.com/watch?v=Mut_u40Sqz4
-https://github.com/nicknochnack/ReinforcementLearningCourse/tree/main
-
 Reinforcement learning focuses on teaching agents through trail and error.
 
 ## Four fundamental concepts that lay most RL projects are:
